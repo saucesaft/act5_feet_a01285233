@@ -22,6 +22,15 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(inches)
     basic.showString(" Inches")
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showNumber(feet)
+    basic.showString(" Feet")
+    basic.showString(" = ")
+    meters = feet / 3.2808
+    basic.showNumber(meters)
+    basic.showString(" Meters")
+})
+let meters = 0
 let inches = 0
 let yards = 0
 let feet = 0
