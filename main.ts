@@ -34,4 +34,4 @@ let meters = 0
 let inches = 0
 let yards = 0
 let feet = 0
-feet = 10
+feet = randint(0, 100)
